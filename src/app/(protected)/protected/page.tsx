@@ -1,4 +1,4 @@
-import { HydrateClient, prefetch, trpc } from "@/server/trpc/server";
+import { HydrateClient, prefetch, trpc } from "@/trpc/server";
 import { Suspense } from "react";
 import { ErrorBoundary } from "react-error-boundary";
 import { UserInfo, UserInfoSkeleton } from "../_components/user-info";
